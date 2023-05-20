@@ -1,0 +1,129 @@
+* {
+    font-family: montserrat, Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid; */
+}
+
+body {
+    background-image: url(./Images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#wrapper {
+    width: 80%;
+    /* background-image: url(./Images/background.jpg); */
+    background-size: cover;
+    background-color: #e2e1e1;
+    max-width: 960px;
+    max-height: 100%;
+    margin: 20px auto;
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    /* height: 550px; */
+}
+
+#page-banner{
+    /* background-image: url(./Images/bg.jpg) ; */
+    background-color: #5d5d5d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#movie-list{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid; */
+    padding: 0 25px;
+    font-size: 18px;
+    /* display: flex; */
+}
+
+#movie-list h2 {
+    color: #575050;
+}
+
+#movie-list li{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.name{
+    align-items: center;
+    /* background-color: #32383B; */
+    padding: 5px;
+    /* margin-top: 6px; */
+}
+
+/* .name:hover{
+    border-left: 2px solid;
+    cursor: pointer;
+} */
+
+#movie-list li {
+    border-left: 5px solid #c1c1c1;
+    cursor: pointer;
+}
+
+#movie-list li:hover {
+    border-left: 5px solid #5ca4d7;
+}
+
+.delete{
+    background-color: #a4001b;
+    padding: 3px;
+    border-radius: 3px;
+    color: rgb(239, 239, 239);
+    cursor: pointer;
+}
+
+/* #movie-list li span{
+    width: 80%;
+} */
+#add-movie {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+#add-movie input {
+    display: block;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#add-movie button{
+    border: none;
+    background-color: rgb(33, 131, 161);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+
