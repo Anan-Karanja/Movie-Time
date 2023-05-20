@@ -35,11 +35,12 @@ body {
     background: linear-gradient(#157fca,#004fa4);
     background-repeat: no-repeat;
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
 #movie-list{
+    margin-top: 10px;
     height: 350px;
     width: 100%;
     /* border: 2px solid; */
