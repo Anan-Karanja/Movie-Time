@@ -76,7 +76,7 @@ body {
 
 #movie-list li {
     border-left: 5px solid #c1c1c1;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #movie-list li:hover {
@@ -84,11 +84,16 @@ body {
 }
 
 .delete{
-    background-color: #a4001b;
+    background-color: #3063aa;
     padding: 3px;
     border-radius: 3px;
     color: rgb(239, 239, 239);
     cursor: pointer;
+}
+
+.delete:hover {
+    outline: solid #0194fd;
+    outline-offset: 5px ;
 }
 
 /* #movie-list li span{
